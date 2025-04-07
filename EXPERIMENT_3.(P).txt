@@ -1,0 +1,296 @@
+LIST PACKAGE AND UNPACKAGE
+
+
+1.  a=10
+
+    b=10.5
+
+  c="python"
+
+  d=30+40j
+
+  e=True
+
+  ls=[a,b,c,d,e]
+
+  print(ls)
+
+  print(type(ls))
+
+OUTPUT:
+  [10, 10.5, 'python', (30+40j), True]
+
+  <class 'list'>
+
+2.   LS=[20,10.5,"python",True,20+40j]
+
+    print(LS)
+
+    print(type(LS))
+
+    a,b,c,d,e=[20,10.5,"python",True,20+40j]
+
+    print(a)
+
+    print(b)
+
+    print(c)
+
+    print(d)
+
+     print(e)
+
+OUTPUT:
+[20, 10.5, 'python', True, (20+40j)]
+
+<class 'list'>
+
+20
+
+
+10.5
+
+python
+
+True
+
+(20+40j)
+
+
+3.
+ls=[10,40,True,20.5,"pyhton",1,0,40+90j]
+
+print(len(ls))
+
+OUTPUT:
+8
+
+4. 
+LS=[10,20,True,20.5,"PYTHON",0,1,20+30j]
+
+print(LS.count(10))
+
+
+OUTPUT:
+1
+
+
+5.
+LS=[10,30,True,10.5,"python",1,0,30+40j]
+print(LS.index(10))
+
+
+OUTPUT:
+0
+
+6.
+  LS=[20,40,50,0.9,80,10]
+
+  print(max(LS))
+
+OUTPUT:
+80
+7.  LS=[10,20,90,0.9,89,0.5]
+
+  print(min(LS))
+
+OUTPUT:
+0.5
+
+8.
+
+ ls=[10,20,30,0.5,50]
+
+    print(ls)
+
+    ls.pop()
+
+    print(ls)
+
+OUTPUT:[10, 20, 30, 0.5, 50]
+
+     [10, 20, 30, 0.5]
+
+
+9.
+LS=[10,20,30,90,20,5,10]
+
+LS.clear()
+
+print(LS)
+
+OUTPUT:
+[]
+
+10.
+
+LS=[10,20,30,90,50]
+
+LS.append(40)
+
+LS.append(30)
+
+print(LS)
+
+OUTPUT:
+[10, 20, 30, 90, 50, 40, 30]
+
+
+11.
+
+LS=[10,90,80]
+
+LS.append(90)
+
+LS.append(22)
+
+LS.append([2,3,4,6,9])
+
+print(LS)
+
+OUTPUT:
+
+[10, 90, 80, 90, 22, [2, 3, 4, 6, 9]]
+
+12.
+
+LS=[9,3,4,5,6,8]
+
+print(LS)
+
+LS.extend([20,90,50,30])
+
+print(LS)
+
+OUTPUT:
+[9, 3, 4, 5, 6, 8]
+
+[9, 3, 4, 5, 6, 8, 20, 90, 50, 30]
+
+13.
+
+LS=[1,9,3,2,7]
+
+print(LS)
+
+LS.insert(1,500)
+
+print(LS)
+
+OUTPUT:
+
+[1, 9, 3, 2, 7]
+
+[1, 500, 9, 3, 2, 7]
+
+
+15.
+ls=[9,10,20,6,8,5]
+
+print(ls)
+
+del ls[5]
+
+print(ls)
+
+OUTPUT:
+
+[9, 10, 20, 6, 8, 5]
+
+[9, 10, 20, 6, 8]
+
+
+
+16.
+
+LS=[2,9,60,90,4,5]
+
+LS.sort()
+
+print(LS)
+
+
+OUTPUT:
+
+[2, 4, 5, 9, 60, 90]
+
+17.
+
+ls=[90,80,10,40,30]
+
+print(ls)
+
+ls.sort()
+
+print(ls)
+
+ls.reverse()
+
+print(ls)
+
+OUTPUT:
+
+[90, 80, 10, 40, 30]
+
+[10, 30, 40, 80, 90]
+
+[90, 80, 40, 30, 10]
+
+
+18.
+
+ls=[90,80,10,40,30]
+
+
+ls.reverse()
+
+print(ls)
+
+OUTPUT:
+
+[30, 40, 10, 80, 90]
+
+19.
+
+str="pyhton"
+
+list(str)
+
+print(list)
+
+OUTPUT:
+
+<class 'list'>
+
+20.
+
+T=90,40,20
+
+print(type(T))
+
+print(T)
+
+
+OUTPUT:
+<class 'tuple'>
+
+(90, 40, 20)
+
+
+21.
+
+t=(10,20,90,40,60,80)
+
+print(len (t))
+
+print(t)
+
+
+OUTPUT:
+
+6
+(10, 20, 90, 40, 60, 80)
+
+
+
+

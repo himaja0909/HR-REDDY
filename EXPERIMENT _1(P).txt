@@ -1,0 +1,139 @@
+EXPERIMENT_1   a=30
+                          b=5
+add=a+b
+print("The addition is:",add)
+sub=a-b
+print("The subtraction is:",sub)
+mul=a*b
+print("The multification is:",mul)
+div=a/b
+print("The division is:",div)
+mod=a%b
+print("The modulus division is:",mod)
+fd=a//b
+print("The floor division is:",fd)
+ex=a**b
+print("The exponentiation is:",ex)
+
+sample output:a=30
+2.
+div=a/b
+modulo=a%b
+Floordiv=a//b
+exponential=a**b
+print("The sum of a and b is:",sum)
+print("subtraction is:",sub)
+print("multification is:",mul)
+print("division is:",div)
+print("modulo division is:",modulo)
+print("Floor division is:",Floordiv)
+print("Exponwntial is:",exponential)
+sample output:
+The sum of a and b is: 39
+subtraction is: 21
+multification is: 270
+division is: 3.3333333333333335
+modulo division is: 3
+Floor division is: 3
+Exponwntial is: 19683000000000
+
+The addition is: 35
+The subtraction is: 25
+The multification is: 150
+The division is: 6.0
+The modulus division is: 0
+The floor division is: 6
+3.a=10
+  b=4
+print("Greater than:",a>b)
+print("Lessthan:",a<b)
+print("Lessthan are equal to:",a<=b)
+print("Greater than or equal to:",a>=b)
+print("Equals to:",a==b)
+
+sample output:
+Greater than: True
+
+Lessthan: False
+
+Lessthan are equal to: False
+
+Greater than or equal to: True 
+
+Equals to: False
+4.
+A=30
+
+B=40
+
+A=A+B
+
+B=A-B
+
+A=A-B
+
+print("The value of A after swapping:",)
+
+print("The value of B after swapping:",)
+
+
+sample output:
+The value of A after swapping:40
+
+The value of B after swapping:
+30
+5.
+a=int(input("Enter the first number:"))
+
+b=int(input("Enter the second number:"))
+c=int(input("Enter the third number:"))
+
+s=(a+b+c)/2
+
+area=(s*(s-a)*(s-b)*(s-c))**0.5
+
+print("The area of triangle is:",)
+
+
+sample output:
+Enter the first number:9
+
+Enter the second number:5
+
+Enter the third number:8
+
+The area of triangle is:19.89974
+
+6.
+Length=12
+
+Breadth=5
+
+area=Length*Breadth
+
+perimeter=2*(Length+Breadth)
+
+print("The area of rectangle is:",area)
+
+print("The perimeter of rectangle is:",perimeter)
+
+
+sample output:
+The area of rectangle is: 60
+
+The perimeter of rectangle is: 34
+
+7.
+diameter=float(input("Enter the diameter of the circle:"))
+
+radius=diameter/2
+
+print("The radius of the circle is:",radius)
+
+sample output:
+Enter the diameter of the circle:9
+
+The radius of the circle is: 4.5
+
+
+

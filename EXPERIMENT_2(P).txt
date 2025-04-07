@@ -1,0 +1,189 @@
+
+EXPERIMENT_2:
+ 1.  x=10
+      if x<20:
+	print("good morning")
+OUTPUT:
+   good morning
+2.    i=1
+
+   while i<=10:
+    
+   print(i)
+
+   i=i+1   
+
+OUTPUT:  
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+3.
+n=input("enter some number").split()
+
+i=0
+
+j=0
+
+for x in n:
+   
+ x=int(x)
+   
+ if x%2==0:
+         
+i=i+1
+  
+ else:
+j=j+1
+print("even number count is:",i)
+
+print("odd number count is:",j)
+
+OUTPUT:
+enter some number1 2 3 4 5 6 7
+
+even number count is: 3
+
+odd number count is: 4
+
+4.
+a=int (input("enter first number:"))
+
+b=int(input("enter second number:"))
+
+c=int(input("enter third number:"))
+
+d=int(input("enter fourth number:"))
+
+s=n1
+
+  if n2<s:
+ 
+   s=n2
+  
+if n3<s:
+
+ s=n3
+ 
+ if n4<s:
+
+ s=n4 
+print("The smaller number is:"s)  
+
+OUTPUT:  
+enter first number is:10
+enter second number is:20
+enter third number is:30
+enter fourth number si:40
+
+The smaller number is :10
+5.
+ x=0
+print(id(x))
+x=x-1
+print(id(x))
+ print(x)
+
+OUTPUT:
+8766905875488
+8766905875456
+-1
+
+6.
+for x in range(1,10):
+	if x %2==0:
+	    	continue
+	if x %5==0:
+	     	break
+	print(x)
+OUTPUT:
+1
+
+3
+
+
+7.
+ls=list(range(11))
+>>> print(ls)
+print(type(ls))
+
+OUTPUT:
+
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+<class 'list'>
+8.
+n=10
+sum=0
+i=1
+while i<=n:
+    print(i)
+    sum=sum+i
+    i=i+1
+print("the sum is:",sum)  
+ 
+OUTPUT: 
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+the sum is: 55
+
+
+9.while loop
+
+i=1
+
+while i<=10:
+  
+  print(i)
+   
+ i=i+1
+
+OUTPUT:
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+
+10.
+
