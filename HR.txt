@@ -1,0 +1,51 @@
+1.  def wish(name,msg):
+   
+   print("Hello",name,msg)
+
+   wish("python","Good Noon")
+
+  wish(name="java",msg="Good Noon")
+
+   wish(msg="Good Noon",name="R_lang")
+
+output:
+
+Hello python Good Noon
+
+Hello java Good Noon
+
+Hello R_lang Good Noon
+
+
+default argument:
+
+2.def wish(name="Guest"):
+   
+ print("Hello",name,"Good Noon")
+
+  wish("krish")  
+  
+wish()
+
+output:
+
+Hello krish Good Noon
+
+Hello Guest Good Noon
+
+
+3.
+a=lambda n:n*n
+
+print("The square value is:",a(4))
+
+print("The square value is:",a(5))
+ 
+
+output:
+
+The square value is: 16
+
+The square value is: 25
+     
+   
